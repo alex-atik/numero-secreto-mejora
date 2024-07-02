@@ -1,0 +1,29 @@
+INDICE DE MASA CORPORAL
+
+function imc (pesoKg , alturaMts) {
+	const pesoKg = 70kg;
+	const alturaMts = 1,77;
+	var imc = pesoKg / alturaMts;
+return imc;
+}
+
+DOLARES A PESOS
+
+function dolaresCambioPesos (dolares) {
+	var Trm = 4.158,10;
+	var pesos = dolares * Trm;
+return pesos;
+}
+
+let listaVacia = [];
+
+let listaDeProgramacion = ["JavaScript", "C", "C++", "Kotlin", "Python"];
+	listaDeProgramacion.push ("Java", "Ruby", "Golang");
+
+function mostrarLenguagesSeparadamente() {
+  for (let i = 0; i < listaDeProgramacion.length; i++) {
+    console.log(listaDeProgramacion[i]);
+  }
+}
+
+mostrarLenguagesSeparadamente();
